@@ -1,10 +1,18 @@
-import React from 'react';
+// Requires
 import ReactDOM from 'react-dom';
-import App from './App';
+import { BrowserRouter } from 'react-router-dom';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+// Components
+import Hero from './components/hero';
+import Router from './components/router';
+
+const App = () => {
+  return (
+    <>
+      <Hero />
+      <Router />
+    </>
+  );
+}
+
+ReactDOM.render(<BrowserRouter><App /></BrowserRouter>, document.getElementById('root'));
