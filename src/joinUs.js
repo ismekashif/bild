@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 // Components
 import Title from './components/title';
+import AccType from './components/accType';
 
 const JoinUs = () => {
     return (
@@ -12,6 +13,7 @@ const JoinUs = () => {
         title="Join Us!" 
         para="To begin this journey, tell us what type of account you'd be opening." 
       />
+      <AccType link="./personalInfo" />
       <Link to="./personalInfo">
         <div></div>
         <div>
