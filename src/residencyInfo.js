@@ -1,6 +1,6 @@
 // Components
-import Title from './components/title';
 import Steps from './components/steps';
+import Title from './components/title';
 import Input from './components/input';
 import SelectCountry from './components/countries';
 

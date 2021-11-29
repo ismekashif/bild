@@ -1,6 +1,6 @@
 // Components
-import Title from './components/title';
 import Steps from './components/steps';
+import Title from './components/title';
 import Input from './components/input';
 
 const PersonalInfo = () => {
@@ -39,7 +39,7 @@ const PersonalInfo = () => {
                         <input type="checkbox" required/>
                         I agree to terms &amp; conditions
                     </label><br />
-                    <input type="submit" />
+                    <input type="submit" value="Register Account" />
                 </form>
                 <p>Or</p>
                 <button>Register with Google</button>

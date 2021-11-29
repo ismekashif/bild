@@ -3,7 +3,12 @@ const Input = props => {
         <>
             <label>
                 {props.input}<br />
-                <input type={props.inputType} placeholder={props.placeholder} required={props.required} />
+                <input 
+                    id="input-box"
+                    type={props.inputType} 
+                    placeholder={props.placeholder} 
+                    required={props.required} 
+                />
             </label><br />
         </>
     );

@@ -1,8 +1,8 @@
 const Title = props => {
     return (
         <>
-            <h1>{props.title}</h1>
-            <p>{props.para}</p>
+            <h1 id="title-heading">{props.title}</h1>
+            <p id="title-para">{props.para}</p>
         </>
     );
 }
