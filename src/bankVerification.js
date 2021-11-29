@@ -1,27 +1,27 @@
-// Requires
-import { Link } from 'react-router-dom';
-
 // Components
 import Title from './components/title';
+import Steps from './components/steps';
+import Input from './components/input';
 
 const BankVerification = () => {
     return (
         <main>
-            <Link to="../residencyInfo">Back</Link>
-            <div>
-                <p>Step 03/03</p>
-                <p>Bank Verification</p>
-            </div>
+            <Steps 
+                linkBack="../residencyInfo"
+                stepCount="3"
+                step="Bank Verification"
+            />
             <section>
                 <Title 
                     title="Complete Your Profile!"
                     para="For the purpose of industry regulation, your details are required."
                 />
                 <form>
-                    <label>
-                        Bank verification number (BVN)<br />
-                        <input type="number" placeholder="Please enter bank verification number" />
-                    </label><br />
+                    <Input 
+                        input="Bank verification number (BVN)"
+                        inputType="number"
+                        placeholder="Please enter BVN"
+                    />
                     <input type="submit" value="Save & Continue" />
                 </form>
                 <p>Your Info is safely secured</p>

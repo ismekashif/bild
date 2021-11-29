@@ -1,42 +1,35 @@
-// Requires
-import { Link } from 'react-router-dom';
-
 // Components
 import Title from './components/title';
+import Steps from './components/steps';
+import Input from './components/input';
+import SelectCountry from './components/countries';
 
 const ResidencyInfo = () => {
     return (
         <main>
-            <Link to="../personalInfo">Back</Link>
-            <div>
-                <p>Step 02/03</p>
-                <p>Residency Info.</p>
-            </div>
+            <Steps 
+                linkBack="../personalInfo"
+                stepCount="2"
+                step="Residency Info."
+            />
             <section>
                 <Title 
                     title="Complete Your Profile!"
                     para="For the purpose of industry regulation, your details are required."
                 />
-                <form>
-                    <label>
-                        Phone number<br />
-                        <input type="tel" placeholder="Please enter phone number" />
-                    </label><br />
-                    <label>
-                        Your address<br />
-                        <input type="text" placeholder="Please enter address" />
-                    </label><br />
-                    <label>Country of residence<br />
-                        <select>
-                            <option selected disabled>Please select</option>
-                            <option>Student</option>
-                            <option>Full Time Job</option>
-                            <option>Full Time Learner</option>
-                            <option>Prefer not to say</option>
-                            <option>Other</option>
-                        </select>
-                    </label><br />
-                    <Link to="../bankVerification"><input type="submit" value="Save & Continue" /></Link>
+                <form action="../bankVerification">
+                    <Input 
+                        input="Phone number"
+                        type="tel"
+                        placeholder="Please enter phone number"
+                    />
+                    <Input 
+                        input="Your address"
+                        type="text"
+                        placeholder="Please enter address"
+                    />
+                    <SelectCountry />
+                    <input type="submit" value="Save & Continue" />
                 </form>
                 <p>Your Info is safely secured</p>
             </section>
