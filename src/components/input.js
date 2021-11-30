@@ -4,7 +4,7 @@ const Input = props => {
             <label>
                 {props.input}<br />
                 <input 
-                    id="input-box"
+                    className="input-box"
                     type={props.inputType} 
                     placeholder={props.placeholder} 
                     required={props.required} 

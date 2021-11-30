@@ -1,8 +1,9 @@
 // Components
-import Steps from './components/steps';
-import Title from './components/title';
-import Input from './components/input';
-import SelectCountry from './components/countries';
+import Steps from '../components/steps';
+import Title from '../components/title';
+import Input from '../components/input';
+import SelectCountry from '../components/countries';
+import Secured from '../components/secured';
 
 const ResidencyInfo = () => {
     return (
@@ -31,7 +32,7 @@ const ResidencyInfo = () => {
                     <SelectCountry />
                     <input type="submit" value="Save & Continue" />
                 </form>
-                <p>Your Info is safely secured</p>
+                <Secured />
             </section>
         </main>
     );

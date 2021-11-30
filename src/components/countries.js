@@ -4,7 +4,7 @@ const SelectCountry = () => {
     return (
         <>
             <label>Country of residence<br />
-                <select>
+                <select className="input-box">
                     <option selected disabled>Please select</option>
                     {countryList.map((c,i) => <option key={i}>{c}</option>)}
                 </select>

@@ -2,10 +2,10 @@
 import { Routes, Route } from 'react-router-dom';
 
 // Routes
-import JoinUs from '../joinUs';
-import PersonalInfo from '../personalInfo';
-import ResidencyInfo from '../residencyInfo';
-import BankVerification from '../bankVerification';
+import JoinUs from '../pages/joinUs';
+import PersonalInfo from '../pages/personalInfo';
+import ResidencyInfo from '../pages/residencyInfo';
+import BankVerification from '../pages/bankVerification';
 
 const Router = () => {
     return (

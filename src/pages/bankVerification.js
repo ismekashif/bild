@@ -1,7 +1,8 @@
 // Components
-import Title from './components/title';
-import Steps from './components/steps';
-import Input from './components/input';
+import Title from '../components/title';
+import Steps from '../components/steps';
+import Input from '../components/input';
+import Secured from '../components/secured';
 
 const BankVerification = () => {
     return (
@@ -24,7 +25,7 @@ const BankVerification = () => {
                     />
                     <input type="submit" value="Save & Continue" />
                 </form>
-                <p>Your Info is safely secured</p>
+                <Secured />
             </section>
         </main>
     );

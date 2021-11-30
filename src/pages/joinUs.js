@@ -1,6 +1,6 @@
 // Components
-import Title from './components/title';
-import AccType from './components/accType';
+import Title from '../components/title';
+import AccType from '../components/accType';
 
 const JoinUs = () => {
     return (
