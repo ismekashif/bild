@@ -1,7 +1,7 @@
 // Components
 import Title from '../components/title';
-import Steps from '../components/steps';
-import Input from '../components/input';
+import Steps from '../components/steps/steps';
+import Input from '../components/input/input';
 import Secured from '../components/secured';
 
 const BankVerification = () => {

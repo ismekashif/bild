@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 
 // Routes
 import JoinUs from '../pages/joinUs';
-import PersonalInfo from '../pages/personalInfo';
+import PersonalInfo from '../pages/personalInfo/personalInfo';
 import ResidencyInfo from '../pages/residencyInfo';
 import BankVerification from '../pages/bankVerification';
 

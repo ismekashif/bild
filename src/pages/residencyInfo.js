@@ -1,7 +1,7 @@
 // Components
-import Steps from '../components/steps';
+import Steps from '../components/steps/steps';
 import Title from '../components/title';
-import Input from '../components/input';
+import Input from '../components/input/input';
 import SelectCountry from '../components/countries';
 import Secured from '../components/secured';
 

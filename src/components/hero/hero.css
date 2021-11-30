@@ -1,0 +1,64 @@
+header {
+    background: linear-gradient(0deg, rgba(21, 101, 216, 0.9), rgba(21, 101, 216, 0.9)), url('../../assets/buildings.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    margin: 10px;
+}
+
+#logo > img {
+    margin: 10px;
+    width: 52.8px;
+    height: 36px;
+}
+
+#logo > span {
+    position: relative;
+    top: -10px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-top: -15px;
+}
+
+blockquote {
+    font-family: 'Inter', sans-serif;
+    width: 75%;
+    max-width: 390px;
+    align-self: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+blockquote > div > i {
+    font-size: 30px;
+    color: #00DAF7;
+}
+
+#quote, #author {
+    color: white;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+#author {
+    font-size: 16px;
+}
+
+#author > i {
+    color: #08AD36;
+    background-color: white;
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    font-size: 14px;
+}

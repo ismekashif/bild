@@ -1,0 +1,25 @@
+#steps {
+    display: flex;
+    justify-content: space-between;
+}
+
+#steps-back {
+    font-size: 16px;
+    color: #8692A6;
+}
+
+#steps-count {
+    text-align: right;
+}
+
+#steps-count > p:first-child {
+    font-size: 14px;
+    font-weight: 500;
+    color: #BDBDBD;
+}
+
+#steps-count > p:last-child {
+    font-size: 16px;
+    font-weight: 600;
+    color: #8692A6;
+}
